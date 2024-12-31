@@ -187,7 +187,7 @@ if animate:
         return mat,
         
     def animate(i):
-        print(f'i={i}\n')
+        #print(f'i={i}\n')
         if i%T==0:
             test.pulse()
             a=test.propagate(i, T)
